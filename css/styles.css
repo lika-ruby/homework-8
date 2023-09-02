@@ -17,3 +17,28 @@ p:nth-last-child(2) {
 p:only-child {
   color: red;
 }
+
+table,
+th,
+td {
+  border-collapse: collapse;
+  border: 1px solid #000;
+}
+
+table {
+  background-color: lawngreen;
+}
+
+thead {
+  background-color: lightcoral;
+}
+
+td:hover {
+  background-color: darkgreen;
+  color: white;
+}
+
+th:hover {
+  background-color: darkred;
+  color: white;
+}
